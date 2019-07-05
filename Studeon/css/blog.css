@@ -1,0 +1,98 @@
+.bgmain{
+	height: 1700px; margin: 0 auto; /* border: 1px solid red; */ padding-top: 100px;
+}
+/* 左 */
+.bgleft{
+	width: 825px;height: 1700px; /* border: 1px solid black; */
+}
+.bgtit{
+	font-size: 20px;
+	line-height: 55px;
+	font-weight: bold;
+	color: black
+}
+.bgp{
+	font-size: 12px; line-height: 36px;
+}
+.bgleft>p{
+	color: #99999b;
+}
+.bgleft>p>span{
+	color: red;
+}
+
+.bgleft_img{
+	width: 820px; height: 427px; border: 3px solid red; margin-top: 20px; 
+	background-image: url(../images/b2.jpg);
+	 background-repeat: no-repeat;
+}
+.com{
+	width: 85px;
+	height:42px ;
+	background-image: url(../images/s-icons.png);
+	background-repeat: no-repeat;
+	background-position:-242px  -125px;
+    position: relative;
+	top: -38px;
+}
+.inputdiv{
+	width: 824px;height: 37px;
+}
+.inputdiv>input{
+	width: 824px; height: 37px; background-color: #eeeeee;
+}
+.inputdivlast{
+	width: 824px;height: 150px; 
+}
+.inputdivlast>input{
+width: 824px; height: 150px; background-color: #eeeeee;
+}
+.sendbu{
+	padding-top: 17px;
+}
+.sendbu>button{
+	font-size: 12px; color: #ffffff;background-color: #ec5743;line-height: 57px; width:255px; 
+}
+.comments{
+	width: 825px; height: 202px; border: 2px solid #d4d4d4;
+}
+.commentsimg{
+	width: 158px; height: 158px; /* border: 1px solid red; */ margin-top: 20px;margin-left: 20px;
+}
+.commentsboxfl{
+	width: 595px; height: 158px; /* border: 1px solid fuchsia; */ margin-top: 20px; margin-right: 20px;
+}
+.commentsboxfl>h2{
+	font-weight: bold; color: black;
+}
+.commentsboxflbot>p{
+	display: block; margin-top: 40PX;
+}
+.commentsboxflbot>div>button{
+	font-size: 12px; color: #ffffff;background-color: #ec5743;line-height: 43px; width:99px; margin-top: 25PX; margin-right: 110PX;
+}
+/* 右 */
+.mainfr{
+	width: 255px; height: 1700px;/* border: 1px solid black; */ margin-left: 50px;
+}
+.mainfr>h1{
+	font-size:20px;
+	line-height: 55px;
+	font-weight: bold;
+	color: black;
+}
+.mainh1{
+	font-size: 20px; line-height: 45px;  color: black;
+}
+.mainfr>ul>li>img{
+	width: 14px; height: 14px; margin-top: 3px;
+}
+.mainfr>ul>li>span{
+	ine-height: 20px
+}
+.mainfrbo{
+	width: 250px; height: 235px; 
+}
+.mainfrbo>img{
+	width: 115px; height: 74px;
+}
