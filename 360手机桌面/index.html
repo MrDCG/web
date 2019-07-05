@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			
+			/*  公共样式 */
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.fl{
+				float: left;
+			}
+			.fr{
+				float: right;
+			}
+			/*  公共样式 */
+			/*  header */
+		    .header{
+				height: 60px;
+				background-image: url(images/logoback_01.jpg);
+			}
+			.header .logo{
+			       width: 960px;
+				   margin: 0 auto;
+				  /* border: 1px solid red; */
+				   margin-top: 5px;
+				   margin-bottom: 5px;
+				   
+			}
+		
+			/*  header */
+			/*  banner */
+		   .banner-top{
+			 width: 100%;
+			 height: 424px;
+			 background-image: url(images/bg00_02.jpg);
+			 background-repeat: no-repeat;
+			 background-position: center;
+			
+		   }
+		   .banner-bottom{
+			    width: 100%;
+				height: 89px;
+				background-image: url(images/bg01_02.jpg);
+				background-position: center;
+		   }
+			/*  banner */
+			/*  main */
+		    .main{
+				width: 960px;
+				height: 617px;
+				margin: auto;
+				overflow:hidden;
+				/* border: 1px solid yellow; */
+			}
+			.main>ul{
+				display:flex;
+				flex-wrap:wrap;
+				padding-top:62px;
+			}
+			.main>ul>li{
+					width: 430px;
+					height: 110px;
+					list-style:none;
+					/* border: 1px solid #000000; */
+					margin-bottom: 62px;
+					display:flex;
+					/* align-items:center; */
+			}
+			.main>ul>li>.img{
+				width: 133px;
+				height: 110px;
+			}
+			.jiange{
+				margin-left: 95px;
+			}
+			.main>ul>li>.text{
+				height:100%;
+				flex:1;
+				color: #3a6399;
+			}
+			.main>ul>li>.text>.title{
+				padding:5px 13px 12px 0;
+			}
+			.main>ul>li>.text>.content{
+				/* height:113px; */
+				color: #999b9a;
+				font-size:12px;
+				/* overflow:hidden; */
+				/* padding-right:10px; */
+			}
+			/*  main */
+			/*  footer */
+			.footer{
+				height: 70px;
+				background-image: url(images/footer_03.jpg);
+			}
+			.footer .div{
+				font-size: 12px;
+				color:#999b9a ;
+				
+
+			}
+			
+			/*  footer */
+		</style>
+	</head>
+	<body>
+		<!-- header start -->
+	        <div class="header">
+				<div class="logo">
+						<img  class="fl"src="images/logo_05.jpg" alt="logo">
+						<img  class="fr" src="images/nav_05.jpg"  alt="nav">
+				</div>
+	        </div>
+		<!-- header end -->
+		<!-- banner start -->
+		<!--    <div class="banner">
+				<div class="banner_top">
+				
+				</div>
+				<div class="banner_bottom">
+					<img src="images/banner_bottom_03.jpg" alt="">
+				</div>
+			</div> -->
+			<div class="banner-top">
+				
+			</div>
+			<div class="banner-bottom">
+				
+			</div>
+		<!-- banner end  -->
+		<!-- main start -->
+		    <div class="main">
+				<ul>
+					<li>
+						<div>
+							<img src="images/icon_21.jpg" alt="">
+						</div>
+						<div class="text">
+							<h2 class="title">简洁清新美观</h2>
+							<p class="content">清新风格更简洁、更美观，百变主题更个性、更抢眼，贴心小工具，丰富新功能，让你的桌面从此与众不同。</p>
+						</div>
+						<div></div>
+					</li>
+					<li class="jiange">
+						<div>
+							<img src="images/icon_23.jpg"  alt=""/>
+							
+						</div>
+						<div class="text">
+							<h2 class="title">操作简便直观</h2>
+							<p class="content">长按桌面即可添加更换各种应用、文件夹、小工具，也可方便的选择主题和壁纸为手机换肤，所见即所得的直观操作带来更加简便的使用体验。</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="images/icon_28.jpg"  alt=""/>
+							
+						</div>
+						<div class="text">
+							<h2 class="title">千变万化主题</h2>
+							<p  class="content">海量主题任你选择，在线主题、壁纸内容不断增加中，每日不同的心情，都能找到恰到好处的个性化呈现方式，让手机天天都是精致的表情。</p>
+						</div>
+					</li>
+					<li class="jiange">
+						<div>
+							<img src="images/icon_30.jpg"  alt=""/>
+							
+						</div>
+						<div class="text">
+							<h2 class="title">贴心实用工具</h2>
+							<p class="content">时钟天气、一键清理、一键节电、日历……不用打开应用，桌面上即可快速进行常用小工具的操作，使用手机更方便，更快捷。</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="images/icon_35.jpg"  alt=""/>
+							
+						</div>
+						<div class="text">
+							<h2 class="title">屏幕手势管理</h2>
+							<p class="content">双指一捏的合并手势操作即可对屏幕进行可视化操作，可添加多达9屏的屏幕，快速浏览切换屏幕，增减屏幕个数及调整屏幕位置，来体验智能手机的触控乐趣吧。</p>
+						</div>
+					</li>
+					<li class="jiange">
+						<div>
+							<img src="images/icon_37.jpg"  alt=""/>
+							
+						</div>
+						<div class="text">
+							<h2 class="title">个人深度定制</h2>
+							<p class="content">图标壁纸随意换，划屏特效随心改，小工具大小任意调，深度定制属于你自己的完美桌面，个性创意毫无拘束，手机屏幕就是你的绘画板。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		<!-- main end  -->
+		<!-- footer start -->
+		     <div class="footer">
+				 <p style="padding-top: 10px; text-align: center;">Copyright©2005-2012 360.CN All Rights Reserved 360安全中心</p>
+				 <p style="padding-top: 10px; text-align: center;">隐私权政策  京ICP证080047号</p>
+			 </div>
+		<!-- footer end  -->
+	</body>
+</html>
